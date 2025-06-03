@@ -1,0 +1,21 @@
+/* 
+Website Color Scheme
+#00568c, 
+#008e66, 
+#ffffff, 
+#000000,
+#3d3d3d 
+*/
+
+.nav {
+    background-image: linear-gradient(270deg, #00568c, #008e66);
+    height: 70px;
+    text-decoration: none
+}
+
+.navLink {
+    color: white;
+    text-decoration: none;
+    padding: 50px;
+    font-size: 20px;
+}
