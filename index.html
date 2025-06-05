@@ -9,12 +9,12 @@
 <body>
     <header>
         <div class="nav">
-            <a class="navLink" href="#home">Home</a>
-            <a class="navLink" href="#services">Services</a>
-            <a class="navLink" href="#about">About</a>
-            <a class="navLink" href="#portfolio">Portfolio</a>
-            <a class="navLink" href="#contact">Contact</a>
-            <span id="programTitle">
+            <a class="navLink inter" href="#home">Home</a>
+            <a class="navLink inter" href="#services">Services</a>
+            <a class="navLink inter" href="#about">About</a>
+            <a class="navLink inter" href="#portfolio">Portfolio</a>
+            <a class="navLink inter" href="#contact">Contact</a>
+            <span class="inter" id="programTitle">
             <h4>Computer & Information Science</h4>
             </span>
             <span>
@@ -25,15 +25,38 @@
     <main>
         <section id="home">
             <div class="homeDiv">
-            <h1>Web Design Excellence Since 2025</h1>
-            <h3>We create stunning, responsive websites that combine cutting-edge technology with exceptional user experience.</h3>
-            <button id="explore">Explore Our Services</button>
+            <h1 class="inter">Web Design Excellence Since 2025</h1>
+            <h3 class="inter">We create stunning, responsive websites that combine cutting-edge technology with exceptional user experience.</h3>
+            <button class="inter" id="explore">Explore Our Services</button>
             </div>
         </section>
-        <section id="services"></section>
+        <section id="services">
+            <h3 id="servicesHeader">Our Services</h3>
+            <div class="headingUnderline"></div>
+            <div class="servicesContainer">
+                <div class="service">
+                    <h2 class="serviceLabel">Responsive Web Design:</h2>
+                    <div class="serviceUnderline"></div>
+                    <p class="serviceText inter">We create websites that look amazing on all devices using the latest HTML5 semantic tags and CSS Grid layouts. Our designs follow best practices for accessibility and user experience.</p>
+                </div>
+                <div class="service">
+                    <h2 class="serviceLabel">Interactive Development:</h2>
+                    <div class="serviceUnderline"></div>
+                    <p class="serviceText inter">Using advanced CSS selectors, animations, and transitions, we build engaging websites with hover effects, smooth scrolling, and dynamic content that responds to user interactions.</p>
+                </div>
+                <div class="service">
+                    <h2 class="serviceLabel">Multi-Page Architecture:</h2>
+                    <div class="serviceUnderline"></div>
+                    <p class="serviceText inter">We organize complex websites into multiple files for better maintainability, faster loading times, and improved SEO performance. Clean, organized code following the DRY principle.</p>
+                </div>
+            </div>
+        </section>
         <section id="about"></section>
         <section id="portfolio"></section>
         <section id="contact"></section>
     </main>
+    <footer>
+
+    </footer>
 </body>
 </html>

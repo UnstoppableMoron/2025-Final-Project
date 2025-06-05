@@ -1,5 +1,5 @@
 /* 
-Website Color Scheme
+Website color scheme
 #00568c, 
 #008e66, 
 #ffffff, 
@@ -7,6 +7,21 @@ Website Color Scheme
 #3d3d3d 
 */
 
+/* Font class rules */
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.faculty-glyphic-regular {
+  font-family: "Faculty Glyphic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Regular styling */
 * {
     margin: 0px;
     padding: 0px;
@@ -15,9 +30,9 @@ Website Color Scheme
 .nav {
     display: flex;
     max-width: 2000px;
-    /* background-image: linear-gradient(270deg, #00568c, #008e66); */
-    background-image: radial-gradient(#008e66, #00568c);
+    background-color: #00568c;
     text-decoration: none;
+    position: sticky;
 }
 
 .navLink {
@@ -30,7 +45,7 @@ Website Color Scheme
 
 #programTitle {
     padding-left: 50px;
-    padding-top: -10px;
+    padding-top: 40px;
     font-size: 30px;
     color: white
 }
@@ -38,7 +53,7 @@ Website Color Scheme
 #logo {
     width: 70px;
     padding-left: 10%;
-    margin-top: 255;
+    padding-top: 20px;
 }
 
 h1 {
@@ -54,11 +69,74 @@ h1, h3 {
     background-image: radial-gradient(#008e66, #00568c);
     height: 320px;
     line-height: 100px;
+    border-top: 1px solid white;
 }
 
 #explore {
     height: 70px;
     width: 240px;
+    border: none;
     border-radius: 35px;
-    background-image: radial-gradient(#008e66, #00568c);
+    background-color: white;
+    color: #00568c;
+}
+
+.servicesContainer {
+    display: flex;
+    column-gap: 30px;
+    justify-content: center;
+}
+
+.service {
+    width: 350px;
+    height: 170px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.6);
+    border: 3px transparent #008e66;
+    border-radius: 20px;
+}
+
+.service:hover {
+    border: 3px solid #008e66;
+    transition: border 0.2s;
+} 
+
+#servicesHeader {
+    color: #00568c;
+    text-align: center;
+    margin-top: 80px;
+    font-size: 50px;
+}
+
+.serviceLabel {
+    color: #00568c;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.serviceText {
+    color: #00568c;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.headingUnderline {
+    width: 20%;
+    background-color: #008e66;
+    height: 5px;
+    margin-left: 40%;
+}
+
+.serviceUnderline {
+    width: 74%;
+    background-color: #008e66;
+    height: 3px;
+    margin-left: 13%;
+}
+
+footer {
+    height: 100px;
+    width: 100%;
+    background-color: #3d3d3d;
 }
