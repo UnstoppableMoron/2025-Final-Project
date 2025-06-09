@@ -28,11 +28,13 @@ Website color scheme
 }
 
 .nav {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
     display: flex;
     max-width: 2000px;
     background-color: #00568c;
     text-decoration: none;
-    position: sticky;
 }
 
 .navLink {
@@ -79,6 +81,7 @@ h1, h3 {
     border-radius: 35px;
     background-color: white;
     color: #00568c;
+    font-size: 20px;
 }
 
 .servicesContainer {
@@ -133,6 +136,39 @@ h1, h3 {
     background-color: #008e66;
     height: 3px;
     margin-left: 13%;
+}
+
+.technologyGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin-top: 5rem;
+}
+
+#technologyHeader {
+    color: #00568c;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 0px;
+    margin-bottom: -65px;
+
+}
+
+#techUnderline {
+    width: 34%;
+    margin-left: 33%;
+
+}
+
+.stackItem {
+    background: linear-gradient(-45deg, #00568c, #008e66);
+    width: 20%;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 1rem;
+    margin: auto;
+    border-radius: 10px;
 }
 
 footer {
