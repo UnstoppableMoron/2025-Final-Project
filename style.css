@@ -146,17 +146,32 @@ h1, h3 {
     margin-bottom: -65px;
 }
 
-#technologyText {
+#subheading{
     color: #008e66;
     margin-top: 65px;
-    margin-left: 37%;
+    margin-left: 36%;
     height: 20px;
+}
+
+#subheading2 {
+    color: #008e66;
+    margin-top: 10px;
+    margin-left: 34%;
+}
+
+#subheading3 {
+    color: #008366;
+    margin-left: 33.5%;
+}
+
+#subheading4 {
+    color: #008366;
+    margin-left: 38%;
 }
 
 #techUnderline {
     width: 34%;
     margin-left: 33%;
-
 }
 
 .stackItem {
@@ -175,6 +190,74 @@ h1, h3 {
     text-align: center;
     font-size: 50px;
     margin-top: 160px;
+    margin-bottom: 50px;
+}
+
+.demoHeading {
+    color: #00568c;
+    margin-left: 41%;
+}
+
+.animationBox {
+    background-color: #00568c;
+    width: 140px;
+    height: 140px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    transition: 1s;
+}
+
+.animationBox:hover {
+    background-color: #008366;
+    border-radius: 80px;
+    transition: 1s;
+    rotate: 360deg;
+}
+
+#visibilityHeading {
+    margin-left: 43%;
+}
+
+.demoButton {
+    background-color: #00568c;
+    color: white;
+    margin-left: 46.7%;
+}
+
+#demoDiv {
+    background-color: #00568c;
+    width: 26%;
+    height: 40px;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 35.8%;
+}
+
+#boxModelHeading {
+    margin-left: 42.6%;
+    margin-top: 70px;
+}
+
+.boxDemo {
+    color: white;
+    background-color: #00568c;
+    text-align: center;
+    border: 6px solid #008366;
+    padding: 20px;
+    margin: 20px;
+    margin-left: 35%;
+    max-width: 26%;
+    transition: all 1s ease;
+}
+
+.boxDemo:hover {
+    margin-left: 35%;
+    margin: 30px;
+    padding: 30px;
+    border-width: 12px;
 }
 
 footer {

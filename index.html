@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Computer & Information Science - Web Design Experts</title>
     <link rel="stylesheet" href="style.css">
+    <script src="scripts.js"></script>
 </head>
 <body>
     <header>
@@ -58,7 +59,7 @@
                 <div class="stackItem">Responsive Design</div>
             </div>
                 <h3 class="inter" id="technologyHeader">Our Technology Stack</h3>
-                <p id="technologyText">We use cutting-edge technologies to deliver exceptional results:</p>
+                <p id="subheading">We use cutting-edge technologies to deliver exceptional results:</p>
             <div class="technologyGrid">
                 <div class="stackItem">CSS Grid</div>
                 <div class="stackItem">Flexbox</div>
@@ -68,6 +69,25 @@
         </section>
         <section id="portfolio">
             <div class="inter" id="portfolioHeader">Interactive Demonstrations</div>
+            <div class="animationDemo">
+                <h3 class="demoHeading">CSS Animations and Transitions</h3>
+                <p id="subheading2">Hover over the box below to see smooth transitions and transformations:</p>
+                <div class="animationBox"></div>
+            </div>
+            <div class="visibilityDemo">
+                <h3 id="visibilityHeading" class="demoHeading">Visibility Property Demo</h3>
+                <p id="subheading3">Click the button to toggle element visibility (notice it still takes up space):</p>
+                <button onclick="toggle()" class="demoButton">Toggle Visibility</button>
+                <div style="visibility: hidden;" id="demoDiv">This element demonstrates the visibility property!<br> While hidden, it still takes up space in the layout.</div>
+            </div>
+            <div class="boxModelDemo">
+                <h3 id="boxModelHeading" class="demoHeading">Box Model Demonstration</h3>
+                <p id="subheading4">Hover to see padding, margin, and border changes:</p>
+                <div class="boxDemo">Box Model Demo</div>
+            </div>
+            <div class="advancedCSS">
+                <h3>Advanced CSS Selectors</h3>
+            </div>
         </section>
         <section id="contact"></section>
     </main>
