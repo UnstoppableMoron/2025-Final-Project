@@ -30,11 +30,11 @@ Website color scheme
 .nav {
     position: sticky;
     top: 0;
-    overflow: hidden;
+    overflow: visible;
     display: flex;
-    max-width: 2000px;
+    width: 100%;
     background-color: #00568c;
-    text-decoration: none;
+    z-index: 10;
 }
 
 .navLink {
@@ -124,13 +124,6 @@ h1, h3 {
     margin-top: 15px;
 }
 
-.headingUnderline {
-    width: 20%;
-    background-color: #008e66;
-    height: 5px;
-    margin-left: 40%;
-}
-
 .serviceUnderline {
     width: 74%;
     background-color: #008e66;
@@ -149,9 +142,15 @@ h1, h3 {
     color: #00568c;
     text-align: center;
     font-size: 50px;
-    margin-top: 0px;
+    margin-top: 50px;
     margin-bottom: -65px;
+}
 
+#technologyText {
+    color: #008e66;
+    margin-top: 65px;
+    margin-left: 37%;
+    height: 20px;
 }
 
 #techUnderline {
@@ -169,6 +168,13 @@ h1, h3 {
     padding: 1rem;
     margin: auto;
     border-radius: 10px;
+}
+
+#portfolioHeader {
+    color: #00568c;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 160px;
 }
 
 footer {
