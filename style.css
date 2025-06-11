@@ -27,6 +27,10 @@ Website color scheme
     padding: 0px;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 header {
     overflow: visible;
 }
@@ -307,6 +311,12 @@ footer {
     padding-top: 90px;
 }
 
+.footerNavLink {
+    color: white;
+    padding: 0% 2% 0% 2%;
+    text-decoration: none;
+}
+
 .footerText {
     color: white;
 }
@@ -384,7 +394,7 @@ footer {
 }
 
 /* Smartphone screen styles */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     .servicesContainer {
         display: grid;
         grid-template-columns: 1fr;
