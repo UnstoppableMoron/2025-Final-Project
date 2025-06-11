@@ -21,7 +21,7 @@ Website color scheme
   font-style: normal;
 }
 
-/* Regular styling */
+/* Monitor screen styles */
 * {
     margin: 0px;
     padding: 0px;
@@ -220,7 +220,8 @@ h1, h3 {
 }
 
 .demoButton {
-    background-color: #00568c;
+    background-image: linear-gradient(to right, #008366, #00568c);
+    border-radius: 5px;
     color: white;
     margin-left: 46.7%;
 }
@@ -264,4 +265,83 @@ footer {
     height: 100px;
     width: 100%;
     background-color: #3d3d3d;
+}
+
+/* Tablet screen styles */
+@media screen and (max-width: 920px) {
+    .navLink {
+        font-size: 12px;
+        padding: 20px;
+    }
+    
+    #programTitle {
+        font-size: 18px;
+        margin-top: -23px;
+    }
+
+    #logo {
+        width: 40px;
+        margin-top: -18px;
+    }
+
+    h1 {
+        font-size: 45px;
+    }
+
+    #heroText {
+        font-size: 15px;
+    }
+
+    .serviceLabel {
+        font-size: 18px;
+    }
+
+    .serviceText {
+        font-size: 15px;
+    }
+
+    #subheading {
+        margin-left: 27%;
+    }
+
+    .demoHeading {
+        margin-left: 34%
+    }
+
+    #subheading2 {
+        margin-left: 22%;
+    }
+
+    #visibilityHeading {
+        margin-left: 38%;
+    }
+
+    .demoButton {
+        margin-left: 44.5%;
+    }
+
+    #demoDiv {
+        height: 80px;
+        margin-left: 35%;
+    }
+
+    #subheading3 {
+        margin-left: 23%;
+    }
+
+    #boxModelHeading {
+        margin-left: 38%;
+    }
+
+    #subheading4 {
+        margin-left: 33%;
+    }
+}
+
+/* Smartphone screen styles */
+@media screen and (max-width: 500px) {
+    .servicesContainer {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 }
