@@ -16,7 +16,7 @@
             <a class="navLink inter" href="#portfolio">Portfolio</a>
             <a class="navLink inter" href="#contact">Contact</a>
             <span class="inter" id="programTitle">
-            <h4>Computer & Information Science</h4>
+            <h4 id="title">Computer & Information Science</h4>
             </span>
             <span>
                 <img id="logo" src="logo.png">
@@ -24,11 +24,12 @@
         </div>
     </header>
     <main>
+        <div class="space"></div>
         <section id="home">
             <div class="homeDiv">
             <h1 class="inter">Web Design Excellence Since 2025</h1>
             <h3 id="heroText" class="inter">We create stunning, responsive websites that combine cutting-edge technology with exceptional user experience.</h3>
-            <button class="inter" id="explore">Explore Our Services</button>
+            <a href="#services"><button class="inter" id="explore">Explore Our Services</button></a>
             </div>
         </section>
         <section id="services">
@@ -70,29 +71,50 @@
         <section id="portfolio">
             <div class="inter" id="portfolioHeader">Interactive Demonstrations</div>
             <div class="animationDemo">
-                <h3 class="demoHeading">CSS Animations and Transitions</h3>
-                <p id="subheading2">Hover over the box below to see smooth transitions and transformations:</p>
+                <h3 id="animationHeading" class="demoHeading">CSS Animations and Transitions</h3>
+                <p class="subheading">Hover over the box below to see smooth transitions and transformations:</p>
                 <div class="animationBox"></div>
             </div>
             <div class="visibilityDemo">
                 <h3 id="visibilityHeading" class="demoHeading">Visibility Property Demo</h3>
-                <p id="subheading3">Click the button to toggle element visibility (notice it still takes up space):</p>
+                <p class="subheading">Click the button to toggle element visibility (notice it still takes up space):</p>
                 <button onclick="toggle()" class="demoButton">Toggle Visibility</button>
                 <div style="visibility: hidden;" id="demoDiv">This element demonstrates the visibility property!<br> While hidden, it still takes up space in the layout.</div>
             </div>
             <div class="boxModelDemo">
                 <h3 id="boxModelHeading" class="demoHeading">Box Model Demonstration</h3>
-                <p id="subheading4">Hover to see padding, margin, and border changes:</p>
+                <p class="subheading">Hover to see padding, margin, and border changes:</p>
                 <div class="boxDemo">Box Model Demo</div>
             </div>
+            <div class="googleMap">
+                <h3 id="iFrameHeading" class="demoHeading">Embedded Content With IFrames</h3>\
+                <p class="subheading">Here's an example of embedding external content:</p>
+                <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2834.3920655060456!2d-74.9925193233767!3d44.73201747107143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccc5d49b5e03a9f%3A0xaf7b7b60e3215973!2sSeaway%20Area%20Tech%20Center!5e0!3m2!1sen!2sus!4v1749620373232!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <p class="subheading">IFrames are useful for embedding maps, videos, or<br> other external content while maintaining security isolation.</p>
+            </div>
             <div class="advancedCSS">
-                <h3>Advanced CSS Selectors</h3>
+                <h3 id="advancedCSSHeading">Advanced CSS Selectors</h3>
+                <p class="subheading">This project demonstrates various selector combinations:</p>
+                <ul class="advancedCSSList">
+                    <li class="cssItem">- <strong>Multi-selectors:</strong> h1, h2, h3 { font-family: Georgia }</li>
+                    <li class="cssItem">- <strong>Child selectors:</strong> .card > h3 for direct children</li>
+                    <li class="cssItem">- <strong>Pseudo-selectors:</strong> :nth-child(even) for alternating styles</li>
+                    <li class="cssItem">- <strong>Hover effects:</strong> Interactive elements throughout the site</li>
+                    <li class="cssItem">- <strong>Focus states:</strong> Accessible navigation and form elements</li>
+                </ul>
             </div>
         </section>
-        <section id="contact"></section>
+        <section id="contact">
+            <h3 class="inter" id="contactHeader">Get in Touch</h3>
+            <p id="contactSubheading" class="subheading">Ready to start your next web project? Let's discuss how we can help bring your vision to life.</p>
+            <p class="subheading"><strong>Email:</strong> info@computerinfoscience.com</p>
+            <p class="subheading"><strong>Phone:</strong> (555) 123-4567</p>
+            <p class="subheading"><strong>Address:</strong> 7225 NY-56, Norwood, NY 13668</p>
+        </section>
     </main>
     <footer>
-
+        <h3 class="footerHeader inter">© 2025 Seaway Computer & Information Science. All rights reserved.</h3>
+        <h5 class="footerText inter">Built with HTML5 semantic tags, advanced CSS selectors, animations, and responsive design principles.</h5>
     </footer>
 </body>
 </html>
